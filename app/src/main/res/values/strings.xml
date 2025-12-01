@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">+EDU</string>
+    <string name="title_achievements">Conquistas</string>
+    <string name="title_leaderboard">Ranking</string>
+    <string name="title_home">Home</string>
+    <string name="title_config">Configurações</string>
+    <string name="title_profile">Perfil</string>
+</resources>

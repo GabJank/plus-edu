@@ -1,0 +1,230 @@
+{
+  "nome_aplicativo": "+EDU",
+  "data_geracao": "2025-11-13",
+  "nome_usuario": "Eduardo Jr.",
+  "idade": 9,
+  "formacao": "4ª série",
+  "email": "eduardojr@gmail.com",
+  "telefone": "(54) 9996-4212",
+  "uf": "RS",
+  "nascimento": "02/02/2016",
+  "ultima_disciplina": "HISTÓRIA",
+  "conteudo_disciplinas": [
+    {
+      "disciplina": "HISTÓRIA",
+      "modulos": [
+        {
+          "titulo": "Colonização do Brasil (1530–1815)",
+          "link": "https://www.youtube.com/watch?v=6xFgUphkggw",
+          "resumo_aula": "A colonização começou em 1530, pois Portugal precisava garantir o território dos invasores (principalmente franceses). O primeiro sistema de administração foram as Capitanias Hereditárias (15 lotes), que quase todas falharam. O rei criou o Governo Geral para centralizar o poder em Salvador. A base da economia era o açúcar, cultivado em grandes fazendas (Latifúndio) com uso de mão de obra escravizada (africana e indígena).",
+          "topicos_quiz": [
+            "Capitanias Hereditárias (Motivo do Fracasso/Sucesso)",
+            "Governos Gerais (Função e Primeira Capital)",
+            "A importância do Latifúndio e Monocultura",
+            "O que foi o Escambo com os indígenas"
+          ]
+        },
+        {
+          "titulo": "Escravidão no Brasil (Sécs. XVI ao XIX)",
+          "link": "https://www.youtube.com/watch?v=5gtxfsHuf5c",
+          "resumo_aula": "A escravidão no Brasil foi um sistema de exploração, onde milhões de africanos foram trazidos à força em navios negreiros (Tumbeiros). Eram vendidos como mercadoria e forçados a trabalhar. O trabalho era principalmente nos engenhos de açúcar e nas minas de ouro. A vida na Senzala era marcada por violência e falta de direitos. As formas de resistência incluíam fugas, revoltas e a criação de Quilombos (o mais famoso foi Palmares, liderado por Zumbi). A Lei Áurea (1888) aboliu a escravidão, mas não garantiu integração social ou econômica.",
+          "topicos_quiz": [
+            "Navios Negreiros",
+            "O que eram os Quilombos e sua função",
+            "Mão de Obra predominante no Ciclo do Açúcar",
+            "Ano da Lei Áurea e seu significado"
+          ]
+        },
+        {
+          "titulo": "Brasil Colônia",
+          "link": "https://www.youtube.com/watch?v=p6IxQbme1pI&t=1s",
+          "resumo_aula": "Período de 1500 a 1822. Toda a riqueza (Pau-Brasil, Açúcar, Ouro) era enviada para Portugal (Pacto Colonial). O Engenho era o centro da vida colonial. A sociedade era rígida: senhores de engenho no topo (Casa-Grande) e escravizados na base (Senzala). No final do século XVII, a descoberta de Ouro e Diamantes mudou a capital para o Rio de Janeiro e gerou revoltas como a Inconfidência Mineira, que questionavam o domínio de Portugal.",
+          "topicos_quiz": [
+            "Produtos do Ciclo do Açúcar e do Ouro",
+            "Relação entre a Casa-Grande e a Senzala",
+            "O que foi o Pacto Colonial",
+            "Importância de Minas Gerais"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplina": "PORTUGUÊS",
+      "modulos": [
+        {
+          "titulo": "Alfabetização (Sílabas, Letras e Sons)",
+          "link": "https://www.youtube.com/watch?v=jv7-2Y5LTQw",
+          "resumo_aula": "Aprender a ler e escrever é entender que as letras representam os sons da fala. Juntar vogais (A, E, I, O, U) com consoantes (B, C, D, etc.) forma as sílabas (Ex: MA + ÇÃ = MAÇÃ). Preste atenção no som que cada sílaba faz!",
+          "topicos_quiz": [
+            "Identificação de sílabas (Ex: Quantas sílabas tem CADERNO?)",
+            "Associação de som e letra (Ex: Qual letra tem o som de /b/?)",
+            "Formação de palavras simples"
+          ]
+        },
+        {
+          "titulo": "Gramática Básica (Verbos)",
+          "link": "https://www.youtube.com/watch?v=WWXW_ifkbwo",
+          "resumo_aula": "Verbos são palavras que indicam AÇÃO (correr, falar), ESTADO (ser, estar) ou FENÔMENO da Natureza (chover, nevar). Eles mudam para mostrar quando a ação aconteceu (Tempo Verbal): Passado (Já aconteceu), Presente (Acontece agora) e Futuro (Ainda vai acontecer).",
+          "topicos_quiz": [
+            "Identificação de Verbos em frases",
+            "Classificação do Tempo Verbal (Passado, Presente, Futuro)",
+            "Conjugação básica (Eu canto, Ele canta, Nós cantamos)"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplina": "MATEMÁTICA",
+      "modulos": [
+        {
+          "titulo": "Adição e Subtração (Conceitos Básicos)",
+          "link": "https://www.youtube.com/watch?v=e78_5WIssSU",
+          "resumo_aula": "Adição (+) é juntar. Você tinha 3 bolas e ganhou 2, agora tem 5. Subtração (-) é tirar. Você tinha 5 balas e comeu 2, agora sobraram 3. A Reserva na subtração acontece quando o número de cima é menor que o de baixo, obrigando a 'pedir emprestado' ao vizinho.",
+          "topicos_quiz": [
+            "Resolução de problemas simples de adição e subtração",
+            "Problemas de subtração com e sem reserva",
+            "Identificação do 'sinal' correto para a operação (Juntar vs. Tirar)"
+          ]
+        },
+        {
+          "titulo": "Multiplicação e Divisão (Conceitos Iniciais)",
+          "link": "https://www.youtube.com/watch?v=o2SJ5pUp_00",
+          "resumo_aula": "Multiplicação (x) é uma forma rápida de somar várias vezes (Ex: $3 \\times 4$ é o mesmo que $4 + 4 + 4$). A Divisão (÷) é uma forma de repartir algo em partes iguais (Ex: 10 balas divididas para 5 amigos = 2 balas para cada).",
+          "topicos_quiz": [
+            "Aplicação da tabuada básica",
+            "Problemas de divisão simples (Ex: Repartir objetos entre pessoas)",
+            "Relação entre multiplicação e adição"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplina": "CIÊNCIAS",
+      "modulos": [
+        {
+          "titulo": "O Corpo Humano: Sistemas",
+          "link": "https://www.youtube.com/watch?v=3ad2smk2vzU",
+          "resumo_aula": "O corpo é dividido em sistemas para funcionar. O Sistema Circulatório (Coração, Veias e Artérias) bombeia o sangue, que leva oxigênio e nutrientes. O Sistema Respiratório (Pulmões) capta o oxigênio do ar. O Sistema Digestório (Estômago e Intestinos) transforma a comida em energia.",
+          "topicos_quiz": [
+            "Função do coração",
+            "Papel das artérias e veias",
+            "Como o oxigênio entra no corpo",
+            "O que acontece com a comida no estômago",
+            "Qual sistema produz energia"
+          ]
+        },
+        {
+          "titulo": "Ecossistemas e Cadeias Alimentares",
+          "link": "https://www.youtube.com/watch?v=QQAqN7qL8Yg",
+          "resumo_aula": "Um Ecossistema é a união dos seres vivos (Fatores Bióticos) com o meio ambiente (água, solo, luz solar - Fatores Abióticos). A Cadeia Alimentar é o caminho da energia: começa nos Produtores (plantas), passa pelos Consumidores (herbívoros e carnívoros) e termina nos Decompositores (fungos e bactérias).",
+          "topicos_quiz": [
+            "Diferença entre fatores bióticos e abióticos",
+            "Qual a função do Produtor na cadeia",
+            "Exemplos de Consumidores (primários e secundários)",
+            "O papel dos decompositores no ecossistema",
+            "O que é habitat"
+          ]
+        }
+      ]
+    },
+    {
+      "disciplina": "GEOGRAFIA",
+      "modulos": [
+        {
+          "titulo": "Orientação e Cartografia",
+          "link": "https://www.youtube.com/watch?v=F9DXZoV97w8",
+          "resumo_aula": "Mapas são representações da Terra. A Orientação é feita pela Rosa dos Ventos (Norte, Sul, Leste e Oeste) ou pelo Sol (Nascente/Leste e Poente/Oeste). As Coordenadas Geográficas (Latitude e Longitude) são linhas imaginárias que permitem localizar com precisão qualquer ponto no planeta.",
+          "topicos_quiz": [
+            "O que a Linha do Equador define (Latitude)",
+            "O que o Meridiano de Greenwich define (Longitude)",
+            "Onde o Sol nasce e onde se põe",
+            "Função de uma escala em um mapa",
+            "O que é a Rosa dos Ventos"
+          ]
+        },
+        {
+          "titulo": "Clima, Tempo e Elementos Naturais",
+          "link": "https://www.youtube.com/watch?v=D3YQ6zl3-2M&t",
+          "resumo_aula": "Tempo é o estado da atmosfera em um momento (Ex: 'O tempo está quente e seco'). Clima é a média do tempo em uma região durante longos anos (Ex: 'O Clima do Nordeste é Semiárido'). A Altitude e a Maritimidade (proximidade com o mar) são fatores que alteram o clima de um lugar.",
+          "topicos_quiz": [
+            "Diferença essencial entre Clima e Tempo",
+            "Efeito da Altitude na temperatura",
+            "O que significa Maritimidade",
+            "Como se formam as chuvas (ciclo da água)",
+            "Quais são os elementos do clima (temperatura, umidade, vento)"
+          ]
+        }
+      ]
+    }
+  ],
+  "ranking": {
+    "1": {
+      "nome": "João",
+      "pontos": 47,
+      "icon": "@images/blue"
+    },
+    "2": {
+      "nome": "Maria",
+      "pontos": 45,
+      "icon": "@images/blue"
+    },
+    "3": {
+      "nome": "Eduardo Jr.",
+      "pontos": 40,
+      "icon": "@images/blue"
+    },
+    "4": {
+      "nome": "José",
+      "pontos": 37,
+      "icon": "@images/blue"
+    },
+    "5": {
+      "nome": "Mateus",
+      "pontos": 35,
+      "icon": "@images/blue"
+    },
+    "6": {
+      "nome": "Enzo",
+      "pontos": 34,
+      "icon": "@images/blue"
+    },
+    "7": {
+      "nome": "Ana",
+      "pontos": 30,
+      "icon": "@images/blue"
+    },
+    "8": {
+      "nome": "Jorge",
+      "pontos": 25,
+      "icon": "@images/blue"
+    },
+    "9": {
+      "nome": "Pedro",
+      "pontos": 22,
+      "icon": "@images/blue"
+    },
+    "10": {
+      "nome": "Gabriel",
+      "pontos": 20,
+      "icon": "@images/blue"
+    }
+  },
+  "achievements": {
+    "missoes": {
+      "1": {
+        "nome": "Estude por 10 minutos",
+        "quantidade": "0/10"
+      },
+      "2": {
+        "nome": "Faça 5 lições",
+        "quantidade": "0/5"
+      },
+      "3": {
+        "nome": "Termine 3 lições de história",
+        "quantidade": "0/3"
+      }
+    }
+  }
+}
+
+
