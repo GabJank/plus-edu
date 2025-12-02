@@ -1,15 +1,11 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item>
         <shape android:shape="rectangle">
             <gradient
                 android:angle="135"
-                android:endColor="@color/verde_limao_claro_translucido"
-                android:startColor="@color/amarelo_queimado_translucido"
+                android:endColor="@color/bege"
+                android:startColor="@color/amarelo_queimado_claro"
                 android:type="linear" />
-
-            <corners android:radius="10dp" />
-
         </shape>
     </item>
 

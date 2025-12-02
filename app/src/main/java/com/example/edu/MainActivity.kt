@@ -2,6 +2,7 @@ package com.example.edu
 
 import android.os.Bundle
 import android.util.Log
+import android.view.WindowManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
@@ -10,16 +11,26 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.edu.databinding.ActivityMainBinding
+import com.example.edu.ui.config.AchievementsViewModel
+import com.example.edu.ui.config.ConfigViewModel
+import com.example.edu.ui.config.LeaderBoardViewModel
 import com.example.edu.ui.home.HomeViewModel
+import com.example.edu.ui.profile.ProfileViewModel
 import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var homeViewModel: HomeViewModel
+    private lateinit var leaderboardViewModel: LeaderBoardViewModel
+    private lateinit var achievementViewModel: AchievementsViewModel
+    private lateinit var configViewModel: ConfigViewModel
+    private lateinit var profileViewModel: ProfileViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)
+        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS)
 
         val jsonString = assets.open("data.json")
             .bufferedReader()
@@ -28,6 +39,14 @@ class MainActivity : AppCompatActivity() {
         val json = JSONObject(jsonString)
         homeViewModel = ViewModelProvider(this)[HomeViewModel::class.java]
         homeViewModel.setConfig(json)
+        leaderboardViewModel = ViewModelProvider(this)[LeaderBoardViewModel::class.java]
+        leaderboardViewModel.setConfig(json)
+        achievementViewModel = ViewModelProvider(this)[AchievementsViewModel::class.java]
+        achievementViewModel.setConfig(json)
+        configViewModel = ViewModelProvider(this)[ConfigViewModel::class.java]
+        configViewModel.setConfig(json)
+        profileViewModel = ViewModelProvider(this)[ProfileViewModel::class.java]
+        profileViewModel.setConfig(json)
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

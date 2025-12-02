@@ -210,19 +210,17 @@
     }
   },
   "achievements": {
-    "missoes": {
-      "1": {
-        "nome": "Estude por 10 minutos",
-        "quantidade": "0/10"
-      },
-      "2": {
-        "nome": "Faça 5 lições",
-        "quantidade": "0/5"
-      },
-      "3": {
-        "nome": "Termine 3 lições de história",
-        "quantidade": "0/3"
-      }
+    "1": {
+      "nome": "Estude por 10 minutos",
+      "quantidade": "5/10"
+    },
+    "2": {
+      "nome": "Faça 5 lições",
+      "quantidade": "2/5"
+    },
+    "3": {
+      "nome": "Termine 3 lições de história",
+      "quantidade": "1/3"
     }
   }
 }

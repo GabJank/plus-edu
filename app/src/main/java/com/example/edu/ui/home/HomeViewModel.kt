@@ -12,7 +12,6 @@ class HomeViewModel : ViewModel() {
     val config: LiveData<JSONObject> = _config
 
     fun setConfig(json: JSONObject) {
-        Log.d("EDU", "$json")
         _config.value = json
     }
 }
