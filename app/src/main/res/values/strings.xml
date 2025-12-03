@@ -5,4 +5,9 @@
     <string name="title_home">Home</string>
     <string name="title_config">Configurações</string>
     <string name="title_profile">Perfil</string>
+    <string name="title_about">Sobre</string>
+    <string name="title_subject">Matéria</string>
+    <string name="title_subject_resume">Resumo da matéria</string>
+    <string name="title_subject_questions">Questões da matéria</string>
+    <string name="title_subject_finished">Matéria finalizada!</string>
 </resources>

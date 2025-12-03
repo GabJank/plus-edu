@@ -256,6 +256,8 @@
                 android:background="@drawable/button_gradient"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false"
                 android:padding="8dp">
 
                 <ImageView
@@ -303,6 +305,8 @@
                 android:background="@drawable/button_gradient"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false"
                 android:padding="8dp">
 
                 <ImageView
@@ -349,6 +353,8 @@
                 android:background="@drawable/button_gradient"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false"
                 android:padding="8dp">
 
                 <ImageView
@@ -395,6 +401,8 @@
                 android:background="@drawable/button_gradient"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false"
                 android:padding="8dp">
 
                 <ImageView
@@ -441,6 +449,8 @@
                 android:background="@drawable/button_gradient"
                 android:gravity="center"
                 android:orientation="vertical"
+                android:clipChildren="false"
+                android:clipToPadding="false"
                 android:padding="8dp">
 
                 <ImageView

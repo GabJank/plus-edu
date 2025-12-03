@@ -16,34 +16,127 @@
         {
           "titulo": "Colonização do Brasil (1530–1815)",
           "link": "https://www.youtube.com/watch?v=6xFgUphkggw",
+          "avaliado": false,
           "resumo_aula": "A colonização começou em 1530, pois Portugal precisava garantir o território dos invasores (principalmente franceses). O primeiro sistema de administração foram as Capitanias Hereditárias (15 lotes), que quase todas falharam. O rei criou o Governo Geral para centralizar o poder em Salvador. A base da economia era o açúcar, cultivado em grandes fazendas (Latifúndio) com uso de mão de obra escravizada (africana e indígena).",
           "topicos_quiz": [
-            "Capitanias Hereditárias (Motivo do Fracasso/Sucesso)",
-            "Governos Gerais (Função e Primeira Capital)",
-            "A importância do Latifúndio e Monocultura",
-            "O que foi o Escambo com os indígenas"
+            {
+              "1": {
+                "pergunta": "Quais foram os motivos do fracasso e sucesso das Capitanias Hereditárias?",
+                "A": "A maioria fracassou por falta de recursos, ataques indígenas e pouca comunicação com Portugal; Pernambuco e São Vicente tiveram sucesso pela economia açucareira.",
+                "B": "Todas fracassaram porque Portugal desistiu do projeto imediatamente.",
+                "C": "Fracassaram porque não havia produtos agrícolas no Brasil.",
+                "D": "Tiveram sucesso porque os donatários receberam soldados profissionais.",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "Qual era a função dos Governos Gerais e qual a primeira capital do Brasil?",
+                "A": "Centralizar a administração, organizar defesa e justiça; a primeira capital foi Salvador.",
+                "B": "Coordenar apenas as missões religiosas; a primeira capital foi Rio de Janeiro.",
+                "C": "Gerenciar o comércio interno; a primeira capital foi Olinda.",
+                "D": "Supervisionar somente a extração de ouro; a primeira capital foi Recife.",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Qual a importância do Latifúndio e da Monocultura?",
+                "A": "Eles estruturaram a economia açucareira, baseada em grandes propriedades e produção voltada para exportação.",
+                "B": "Permitiam que cada colono tivesse pequenas terras familiares.",
+                "C": "Forçaram Portugal a diversificar a produção agrícola.",
+                "D": "Tornaram o Brasil independente economicamente já no século XVI.",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "O que foi o Escambo com os indígenas?",
+                "A": "Troca de produtos europeus por trabalho indígena, especialmente no corte do pau-brasil.",
+                "B": "Um imposto cobrado apenas dos colonos portugueses.",
+                "C": "Um acordo militar entre Portugal e França.",
+                "D": "A venda de escravizados africanos diretamente aos indígenas.",
+                "correta": "A"
+              }
+            }
           ]
         },
         {
           "titulo": "Escravidão no Brasil (Sécs. XVI ao XIX)",
           "link": "https://www.youtube.com/watch?v=5gtxfsHuf5c",
+          "avaliado": false,
           "resumo_aula": "A escravidão no Brasil foi um sistema de exploração, onde milhões de africanos foram trazidos à força em navios negreiros (Tumbeiros). Eram vendidos como mercadoria e forçados a trabalhar. O trabalho era principalmente nos engenhos de açúcar e nas minas de ouro. A vida na Senzala era marcada por violência e falta de direitos. As formas de resistência incluíam fugas, revoltas e a criação de Quilombos (o mais famoso foi Palmares, liderado por Zumbi). A Lei Áurea (1888) aboliu a escravidão, mas não garantiu integração social ou econômica.",
           "topicos_quiz": [
-            "Navios Negreiros",
-            "O que eram os Quilombos e sua função",
-            "Mão de Obra predominante no Ciclo do Açúcar",
-            "Ano da Lei Áurea e seu significado"
+            {
+              "1": {
+                "pergunta": "O que eram os Navios Negreiros (Tumbeiros)?",
+                "A": "Navios usados para transportar africanos escravizados em condições desumanas.",
+                "B": "Navios comerciais comuns que traziam especiarias para o Brasil.",
+                "C": "Barcos utilizados para patrulhar a costa contra invasores.",
+                "D": "Embarcações portuguesas de pesca de alto-mar.",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "O que eram os Quilombos?",
+                "A": "Comunidades formadas por escravizados fugitivos que resistiam ao sistema.",
+                "B": "Vilarejos portugueses controlados pelo Governo Geral.",
+                "C": "Locais onde se armazenavam produtos agrícolas.",
+                "D": "Aldeias indígenas ligadas às missões jesuíticas.",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Qual era a mão de obra predominante no Ciclo do Açúcar?",
+                "A": "Escravizados africanos.",
+                "B": "Trabalhadores assalariados portugueses.",
+                "C": "Servos indígenas contratados.",
+                "D": "Camponeses livres que recebiam terras.",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "Em que ano foi assinada a Lei Áurea e o que ela significou?",
+                "A": "1888 – Aboliu oficialmente a escravidão no Brasil.",
+                "B": "1808 – Libertou apenas os escravos das cidades.",
+                "C": "1822 – Proibiu o tráfico negreiro internacional.",
+                "D": "1850 – Criou escolas para ex-escravizados.",
+                "correta": "A"
+              }
+            }
           ]
         },
         {
           "titulo": "Brasil Colônia",
-          "link": "https://www.youtube.com/watch?v=p6IxQbme1pI&t=1s",
+          "link": "https://www.youtube.com/watch?v=p6IxQbme1pI&t",
+          "avaliado": false,
           "resumo_aula": "Período de 1500 a 1822. Toda a riqueza (Pau-Brasil, Açúcar, Ouro) era enviada para Portugal (Pacto Colonial). O Engenho era o centro da vida colonial. A sociedade era rígida: senhores de engenho no topo (Casa-Grande) e escravizados na base (Senzala). No final do século XVII, a descoberta de Ouro e Diamantes mudou a capital para o Rio de Janeiro e gerou revoltas como a Inconfidência Mineira, que questionavam o domínio de Portugal.",
           "topicos_quiz": [
-            "Produtos do Ciclo do Açúcar e do Ouro",
-            "Relação entre a Casa-Grande e a Senzala",
-            "O que foi o Pacto Colonial",
-            "Importância de Minas Gerais"
+            {
+              "1": {
+                "pergunta": "Quais produtos marcaram o Ciclo do Açúcar e o Ciclo do Ouro?",
+                "A": "Açúcar no Nordeste e Ouro em Minas Gerais.",
+                "B": "Algodão no Nordeste e Ferro no Sul.",
+                "C": "Café em São Paulo e Prata em Goiás.",
+                "D": "Carvão no Sul e Madeira no Norte.",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "Qual era a relação entre Casa-Grande e Senzala?",
+                "A": "A Casa-Grande era a residência dos senhores e a Senzala abrigava escravizados.",
+                "B": "Ambas eram casas de famílias portuguesas.",
+                "C": "A Senzala era um depósito de alimentos.",
+                "D": "A Casa-Grande pertencia a administradores do Governo Geral.",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "O que foi o Pacto Colonial?",
+                "A": "Sistema em que o Brasil só podia comercializar com Portugal.",
+                "B": "Acordo que permitia livre comércio com a Inglaterra.",
+                "C": "Regra que proibia a produção de açúcar no Brasil.",
+                "D": "Tratado que tornou o Brasil independente.",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "Por que Minas Gerais foi importante no período colonial?",
+                "A": "Foi o centro da extração de ouro e diamantes.",
+                "B": "Possuía os maiores engenhos de açúcar.",
+                "C": "Era a principal rota marítima para Portugal.",
+                "D": "Foi onde ocorreu a primeira capital do Brasil.",
+                "correta": "A"
+              }
+            }
           ]
         }
       ]
@@ -54,21 +147,69 @@
         {
           "titulo": "Alfabetização (Sílabas, Letras e Sons)",
           "link": "https://www.youtube.com/watch?v=jv7-2Y5LTQw",
+          "avaliado": false,
           "resumo_aula": "Aprender a ler e escrever é entender que as letras representam os sons da fala. Juntar vogais (A, E, I, O, U) com consoantes (B, C, D, etc.) forma as sílabas (Ex: MA + ÇÃ = MAÇÃ). Preste atenção no som que cada sílaba faz!",
           "topicos_quiz": [
-            "Identificação de sílabas (Ex: Quantas sílabas tem CADERNO?)",
-            "Associação de som e letra (Ex: Qual letra tem o som de /b/?)",
-            "Formação de palavras simples"
+            {
+              "1": {
+                "pergunta": "Quantas sílabas tem a palavra CADERNO?",
+                "A": "3 (CA – DER – NO)",
+                "B": "2",
+                "C": "4",
+                "D": "1",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "Qual letra representa o som /b/?",
+                "A": "B",
+                "B": "P",
+                "C": "D",
+                "D": "V",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Qual palavra é formada pela junção das sílabas MA + CA?",
+                "A": "MACA",
+                "B": "CAMA",
+                "C": "MACACO",
+                "D": "MALA",
+                "correta": "A"
+              }
+            }
           ]
         },
         {
           "titulo": "Gramática Básica (Verbos)",
           "link": "https://www.youtube.com/watch?v=WWXW_ifkbwo",
+          "avaliado": false,
           "resumo_aula": "Verbos são palavras que indicam AÇÃO (correr, falar), ESTADO (ser, estar) ou FENÔMENO da Natureza (chover, nevar). Eles mudam para mostrar quando a ação aconteceu (Tempo Verbal): Passado (Já aconteceu), Presente (Acontece agora) e Futuro (Ainda vai acontecer).",
           "topicos_quiz": [
-            "Identificação de Verbos em frases",
-            "Classificação do Tempo Verbal (Passado, Presente, Futuro)",
-            "Conjugação básica (Eu canto, Ele canta, Nós cantamos)"
+            {
+              "1": {
+                "pergunta": "Qual palavra é um verbo?",
+                "A": "Correr",
+                "B": "Rápido",
+                "C": "Bonito",
+                "D": "Criança",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "A frase 'Ele estudou' está em qual tempo verbal?",
+                "A": "Passado",
+                "B": "Presente",
+                "C": "Futuro",
+                "D": "Indefinido",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Qual é a forma correta para 'Nós' no verbo CANTAR?",
+                "A": "Nós cantamos",
+                "B": "Nós canta",
+                "C": "Nós cantará",
+                "D": "Nós cantou",
+                "correta": "A"
+              }
+            }
           ]
         }
       ]
@@ -79,21 +220,69 @@
         {
           "titulo": "Adição e Subtração (Conceitos Básicos)",
           "link": "https://www.youtube.com/watch?v=e78_5WIssSU",
+          "avaliado": false,
           "resumo_aula": "Adição (+) é juntar. Você tinha 3 bolas e ganhou 2, agora tem 5. Subtração (-) é tirar. Você tinha 5 balas e comeu 2, agora sobraram 3. A Reserva na subtração acontece quando o número de cima é menor que o de baixo, obrigando a 'pedir emprestado' ao vizinho.",
           "topicos_quiz": [
-            "Resolução de problemas simples de adição e subtração",
-            "Problemas de subtração com e sem reserva",
-            "Identificação do 'sinal' correto para a operação (Juntar vs. Tirar)"
+            {
+              "1": {
+                "pergunta": "Quanto é 7 + 5?",
+                "A": "12",
+                "B": "10",
+                "C": "11",
+                "D": "13",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "Quanto é 14 − 9?",
+                "A": "5",
+                "B": "6",
+                "C": "4",
+                "D": "3",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "A operação 'juntar' representa qual sinal?",
+                "A": "+",
+                "B": "−",
+                "C": "÷",
+                "D": "×",
+                "correta": "A"
+              }
+            }
           ]
         },
         {
           "titulo": "Multiplicação e Divisão (Conceitos Iniciais)",
           "link": "https://www.youtube.com/watch?v=o2SJ5pUp_00",
+          "avaliado": false,
           "resumo_aula": "Multiplicação (x) é uma forma rápida de somar várias vezes (Ex: $3 \\times 4$ é o mesmo que $4 + 4 + 4$). A Divisão (÷) é uma forma de repartir algo em partes iguais (Ex: 10 balas divididas para 5 amigos = 2 balas para cada).",
           "topicos_quiz": [
-            "Aplicação da tabuada básica",
-            "Problemas de divisão simples (Ex: Repartir objetos entre pessoas)",
-            "Relação entre multiplicação e adição"
+            {
+              "1": {
+                "pergunta": "Quanto é 3 × 4?",
+                "A": "12",
+                "B": "7",
+                "C": "16",
+                "D": "10",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "Se você tem 15 balas e divide igualmente entre 5 amigos, quantas balas cada um recebe?",
+                "A": "3",
+                "B": "5",
+                "C": "10",
+                "D": "15",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "A multiplicação é uma forma rápida de:",
+                "A": "Somar várias vezes",
+                "B": "Subtrair",
+                "C": "Dividir objetos",
+                "D": "Contar apenas pares",
+                "correta": "A"
+              }
+            }
           ]
         }
       ]
@@ -104,25 +293,101 @@
         {
           "titulo": "O Corpo Humano: Sistemas",
           "link": "https://www.youtube.com/watch?v=3ad2smk2vzU",
+          "avaliado": false,
           "resumo_aula": "O corpo é dividido em sistemas para funcionar. O Sistema Circulatório (Coração, Veias e Artérias) bombeia o sangue, que leva oxigênio e nutrientes. O Sistema Respiratório (Pulmões) capta o oxigênio do ar. O Sistema Digestório (Estômago e Intestinos) transforma a comida em energia.",
           "topicos_quiz": [
-            "Função do coração",
-            "Papel das artérias e veias",
-            "Como o oxigênio entra no corpo",
-            "O que acontece com a comida no estômago",
-            "Qual sistema produz energia"
+            {
+              "1": {
+                "pergunta": "Qual a função do coração?",
+                "A": "Bombear sangue para o corpo.",
+                "B": "Filtrar o ar.",
+                "C": "Produzir alimentos.",
+                "D": "Controlar os ossos.",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "O que as artérias fazem?",
+                "A": "Levam o sangue do coração para o corpo.",
+                "B": "Trazem sangue para o coração.",
+                "C": "Ajudam na respiração.",
+                "D": "Produzem energia.",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Como o oxigênio entra no corpo?",
+                "A": "Pelos pulmões, durante a respiração.",
+                "B": "Pelo estômago.",
+                "C": "Pelos músculos.",
+                "D": "Pelos ossos.",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "O que acontece com a comida no estômago?",
+                "A": "Ela é quebrada e transformada em energia.",
+                "B": "Ela é congelada.",
+                "C": "Ela vira água.",
+                "D": "Ela some.",
+                "correta": "A"
+              },
+              "5": {
+                "pergunta": "Qual sistema produz energia a partir dos alimentos?",
+                "A": "Digestório",
+                "B": "Respiratório",
+                "C": "Ósseo",
+                "D": "Nervoso",
+                "correta": "A"
+              }
+            }
           ]
         },
         {
           "titulo": "Ecossistemas e Cadeias Alimentares",
           "link": "https://www.youtube.com/watch?v=QQAqN7qL8Yg",
+          "avaliado": false,
           "resumo_aula": "Um Ecossistema é a união dos seres vivos (Fatores Bióticos) com o meio ambiente (água, solo, luz solar - Fatores Abióticos). A Cadeia Alimentar é o caminho da energia: começa nos Produtores (plantas), passa pelos Consumidores (herbívoros e carnívoros) e termina nos Decompositores (fungos e bactérias).",
           "topicos_quiz": [
-            "Diferença entre fatores bióticos e abióticos",
-            "Qual a função do Produtor na cadeia",
-            "Exemplos de Consumidores (primários e secundários)",
-            "O papel dos decompositores no ecossistema",
-            "O que é habitat"
+            {
+              "1": {
+                "pergunta": "O que são fatores bióticos?",
+                "A": "Seres vivos do ambiente.",
+                "B": "Temperatura e luz.",
+                "C": "Água e solo.",
+                "D": "Apenas plantas.",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "Qual a função do Produtor na cadeia alimentar?",
+                "A": "Produzir seu próprio alimento e iniciar a cadeia.",
+                "B": "Comer outros animais.",
+                "C": "Decompor matéria.",
+                "D": "Causar doenças.",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Qual é um exemplo de consumidor primário?",
+                "A": "Coelho",
+                "B": "Onça",
+                "C": "Fungo",
+                "D": "Gramínea",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "Qual o papel dos decompositores?",
+                "A": "Transformar restos de seres vivos em nutrientes.",
+                "B": "Produzir oxigênio.",
+                "C": "Comer plantas.",
+                "D": "Parar a cadeia alimentar.",
+                "correta": "A"
+              },
+              "5": {
+                "pergunta": "O que é um habitat?",
+                "A": "O lugar onde um ser vivo vive.",
+                "B": "Um tipo de alimento.",
+                "C": "Um predador.",
+                "D": "Um produtor.",
+                "correta": "A"
+              }
+            }
           ]
         }
       ]
@@ -133,25 +398,101 @@
         {
           "titulo": "Orientação e Cartografia",
           "link": "https://www.youtube.com/watch?v=F9DXZoV97w8",
+          "avaliado": false,
           "resumo_aula": "Mapas são representações da Terra. A Orientação é feita pela Rosa dos Ventos (Norte, Sul, Leste e Oeste) ou pelo Sol (Nascente/Leste e Poente/Oeste). As Coordenadas Geográficas (Latitude e Longitude) são linhas imaginárias que permitem localizar com precisão qualquer ponto no planeta.",
           "topicos_quiz": [
-            "O que a Linha do Equador define (Latitude)",
-            "O que o Meridiano de Greenwich define (Longitude)",
-            "Onde o Sol nasce e onde se põe",
-            "Função de uma escala em um mapa",
-            "O que é a Rosa dos Ventos"
+            {
+              "1": {
+                "pergunta": "O que a Linha do Equador define?",
+                "A": "Latitude",
+                "B": "Longitude",
+                "C": "Altitudes",
+                "D": "Fusos horários",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "O que o Meridiano de Greenwich define?",
+                "A": "Longitude",
+                "B": "Latitude",
+                "C": "Clima",
+                "D": "Relevo",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "Onde o Sol nasce?",
+                "A": "Leste",
+                "B": "Oeste",
+                "C": "Norte",
+                "D": "Sul",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "Para que serve a escala em um mapa?",
+                "A": "Indicar a proporção entre o mapa e a realidade.",
+                "B": "Mostrar o clima da região.",
+                "C": "Apontar o tipo de solo.",
+                "D": "Indicar nomes de cidades.",
+                "correta": "A"
+              },
+              "5": {
+                "pergunta": "O que é a Rosa dos Ventos?",
+                "A": "Símbolo que mostra os pontos cardeais.",
+                "B": "Um mapa de distâncias.",
+                "C": "Uma bússola digital.",
+                "D": "Um mapa antigo.",
+                "correta": "A"
+              }
+            }
           ]
         },
         {
           "titulo": "Clima, Tempo e Elementos Naturais",
           "link": "https://www.youtube.com/watch?v=D3YQ6zl3-2M&t",
+          "avaliado": false,
           "resumo_aula": "Tempo é o estado da atmosfera em um momento (Ex: 'O tempo está quente e seco'). Clima é a média do tempo em uma região durante longos anos (Ex: 'O Clima do Nordeste é Semiárido'). A Altitude e a Maritimidade (proximidade com o mar) são fatores que alteram o clima de um lugar.",
           "topicos_quiz": [
-            "Diferença essencial entre Clima e Tempo",
-            "Efeito da Altitude na temperatura",
-            "O que significa Maritimidade",
-            "Como se formam as chuvas (ciclo da água)",
-            "Quais são os elementos do clima (temperatura, umidade, vento)"
+            {
+              "1": {
+                "pergunta": "Qual a diferença entre Clima e Tempo?",
+                "A": "O tempo é momentâneo; o clima é a média ao longo dos anos.",
+                "B": "Ambos significam a mesma coisa.",
+                "C": "Clima é diário e tempo é anual.",
+                "D": "Tempo é sempre quente e clima é sempre frio.",
+                "correta": "A"
+              },
+              "2": {
+                "pergunta": "O que a altitude faz com a temperatura?",
+                "A": "Quanto maior a altitude, menor a temperatura.",
+                "B": "A altitude aumenta o calor.",
+                "C": "Não altera nada.",
+                "D": "Apenas afeta cidades litorâneas.",
+                "correta": "A"
+              },
+              "3": {
+                "pergunta": "O que significa Maritimidade?",
+                "A": "Influência do mar sobre o clima.",
+                "B": "Aumento de vegetação.",
+                "C": "Presença de montanhas.",
+                "D": "Quantidade de rios.",
+                "correta": "A"
+              },
+              "4": {
+                "pergunta": "Como se formam as chuvas?",
+                "A": "Pela evaporação da água e condensação das nuvens.",
+                "B": "Pela queda das folhas.",
+                "C": "Pelo vento frio.",
+                "D": "Pela ação dos animais.",
+                "correta": "A"
+              },
+              "5": {
+                "pergunta": "Quais são elementos do clima?",
+                "A": "Temperatura, umidade e vento.",
+                "B": "Oceano, montanha e campo.",
+                "C": "Areia, pedra e madeira.",
+                "D": "Sol, lua e estrelas.",
+                "correta": "A"
+              }
+            }
           ]
         }
       ]
@@ -212,15 +553,15 @@
   "achievements": {
     "1": {
       "nome": "Estude por 10 minutos",
-      "quantidade": "5/10"
+      "quantidade": "0/10"
     },
     "2": {
       "nome": "Faça 5 lições",
-      "quantidade": "2/5"
+      "quantidade": "0/5"
     },
     "3": {
       "nome": "Termine 3 lições de história",
-      "quantidade": "1/3"
+      "quantidade": "0/3"
     }
   }
 }

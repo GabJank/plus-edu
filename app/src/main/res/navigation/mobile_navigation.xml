@@ -21,17 +21,77 @@
         android:id="@+id/navigation_home"
         android:name="com.example.edu.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+
+        <action
+            android:id="@+id/action_navigation_home_to_subject"
+            app:destination="@id/navigation_subject" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_config"
         android:name="com.example.edu.ui.config.ConfigFragment"
         android:label="@string/title_config"
-        tools:layout="@layout/fragment_config" />
+        tools:layout="@layout/fragment_config">
+
+        <action
+            android:id="@+id/action_navigation_config_to_about"
+            app:destination="@id/navigation_config_about" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.edu.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/navigation_config_about"
+        android:name="com.example.edu.ui.config.AboutFragment"
+        android:label="@string/title_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/navigation_subject"
+        android:name="com.example.edu.ui.subject.SubjectFragment"
+        android:label="@string/title_subject"
+        tools:layout="@layout/fragment_subject">
+
+        <action
+            android:id="@+id/action_navigation_subject_to_subject_resume"
+            app:destination="@id/navigation_subject_resume" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_subject_resume"
+        android:name="com.example.edu.ui.subject.SubjectResumeFragment"
+        android:label="@string/title_subject_resume"
+        tools:layout="@layout/fragment_subject_resume" >
+
+        <action
+            android:id="@+id/action_navigation_subject_to_subject_questions"
+            app:destination="@id/navigation_subject_questions" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_subject_questions"
+        android:name="com.example.edu.ui.subject.SubjectQuestionsFragment"
+        android:label="@string/title_subject_questions"
+        tools:layout="@layout/fragment_subject_questions" >
+
+        <action
+            android:id="@+id/action_navigation_subject_to_subject_finished"
+            app:destination="@id/navigation_subject_finished" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_subject_finished"
+        android:name="com.example.edu.ui.subject.SubjectFinishedFragment"
+        android:label="@string/title_subject_finished"
+        tools:layout="@layout/fragment_subject_finished" />
 </navigation>
