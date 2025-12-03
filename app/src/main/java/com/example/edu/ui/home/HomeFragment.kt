@@ -11,12 +11,10 @@ import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
-import androidx.lifecycle.ViewModelProvider
 import com.example.edu.MainActivity
 import androidx.navigation.fragment.findNavController
 import com.example.edu.R
 import com.example.edu.databinding.FragmentHomeBinding
-import com.example.edu.ui.subject.SubjectViewModel
 
 data class RankingItem(
     val posicao: Int,
@@ -57,7 +55,6 @@ class HomeFragment : Fragment() {
             geographyButton
         )
         val continueButton: ConstraintLayout = binding.continueButton
-        val subjectViewModel = ViewModelProvider(this)[SubjectViewModel::class.java]
 
         homeViewModel.config.observe(viewLifecycleOwner) { json ->
             val nomeUsuario = json.optString("nome_usuario")
@@ -120,8 +117,7 @@ class HomeFragment : Fragment() {
 
                         json.put("ultima_disciplina",disciplinaName)
                         (requireActivity() as MainActivity).atualizarJson(json)
-
-                        subjectViewModel.setConfig(disc)
+                        (requireActivity() as MainActivity).subjectViewModel.setConfig(disc)
                     }
                 }
             }

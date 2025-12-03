@@ -18,6 +18,7 @@ import com.example.edu.ui.home.HomeViewModel
 import com.example.edu.ui.profile.ProfileViewModel
 import org.json.JSONObject
 import androidx.core.content.edit
+import com.example.edu.ui.subject.SubjectViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var achievementViewModel: AchievementsViewModel
     private lateinit var configViewModel: ConfigViewModel
     private lateinit var profileViewModel: ProfileViewModel
+    lateinit var subjectViewModel: SubjectViewModel
     private lateinit var json: JSONObject
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,6 +48,7 @@ class MainActivity : AppCompatActivity() {
         configViewModel.setConfig(json)
         profileViewModel = ViewModelProvider(this)[ProfileViewModel::class.java]
         profileViewModel.setConfig(json)
+        subjectViewModel = ViewModelProvider(this)[SubjectViewModel::class.java]
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)

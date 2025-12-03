@@ -502,12 +502,12 @@
     "1": {
       "nome": "João",
       "pontos": 47,
-      "icon": "@images/blue"
+      "icon": "@images/gray"
     },
     "2": {
       "nome": "Maria",
       "pontos": 45,
-      "icon": "@images/blue"
+      "icon": "@images/pink"
     },
     "3": {
       "nome": "Eduardo Jr.",
@@ -517,12 +517,12 @@
     "4": {
       "nome": "José",
       "pontos": 37,
-      "icon": "@images/blue"
+      "icon": "@images/orange"
     },
     "5": {
       "nome": "Mateus",
       "pontos": 35,
-      "icon": "@images/blue"
+      "icon": "@images/yellow"
     },
     "6": {
       "nome": "Enzo",
@@ -532,22 +532,22 @@
     "7": {
       "nome": "Ana",
       "pontos": 30,
-      "icon": "@images/blue"
+      "icon": "@images/red"
     },
     "8": {
       "nome": "Jorge",
       "pontos": 25,
-      "icon": "@images/blue"
+      "icon": "@images/green"
     },
     "9": {
       "nome": "Pedro",
       "pontos": 22,
-      "icon": "@images/blue"
+      "icon": "@images/red"
     },
     "10": {
       "nome": "Gabriel",
       "pontos": 20,
-      "icon": "@images/blue"
+      "icon": "@images/purple"
     }
   },
   "achievements": {

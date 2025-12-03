@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import androidx.recyclerview.widget.RecyclerView
 import com.example.edu.databinding.FragmentSubjectBinding
 import kotlin.getValue
 
@@ -25,9 +26,11 @@ class SubjectFragment : Fragment() {
         val root: View = binding.root
 
         val subject_text: TextView = binding.subjectText
+        val recycler: RecyclerView = binding.recyclerList
 
         subjectViewModel.config.observe(viewLifecycleOwner) { json ->
-            Log.d("+EDU", "$json")
+            val subject_name = json.optString("disciplina")
+            subject_text.text = subject_name
         }
 
         return root
