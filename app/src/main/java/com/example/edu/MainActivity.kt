@@ -88,10 +88,8 @@ class MainActivity : AppCompatActivity() {
         val savedJsonString = prefs.getString("config_json", null)
 
         return if (savedJsonString != null) {
-            // Já existe config salva (dinâmica)
             JSONObject(savedJsonString)
         } else {
-            // Primeira vez: lê de assets e salva
             val jsonString = assets.open("data.json")
                 .bufferedReader()
                 .use { it.readText() }
@@ -151,7 +149,7 @@ class MainActivity : AppCompatActivity() {
                     var numerador = partes[0].toInt()
                     val denominador = partes[1].toInt()
 
-                    if (posicao == 1 && numerador <= denominador) {
+                    if (posicao == 1 && numerador < denominador) {
                         numerador = numerador + minutosTotais.toInt()
                         if (numerador >= 10) {
                             numerador = 10
@@ -159,13 +157,13 @@ class MainActivity : AppCompatActivity() {
                         obj.put("quantidade", "$numerador/$denominador")
                     }
 
-                    if (posicao == 2 && numerador <= denominador) {
+                    if (posicao == 2 && numerador < denominador) {
                         numerador++
                         obj.put("quantidade", "$numerador/$denominador")
                     }
 
                     if (nome_disc == "HISTÓRIA") {
-                        if (posicao == 3 && numerador <= denominador) {
+                        if (posicao == 3 && numerador < denominador) {
                             numerador++
                             obj.put("quantidade", "$numerador/$denominador")
                         }
