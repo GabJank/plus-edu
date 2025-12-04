@@ -2,6 +2,7 @@ package com.example.edu
 
 import android.os.Bundle
 import android.util.Log
+import android.util.TypedValue
 import android.view.WindowManager
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import androidx.appcompat.app.AppCompatActivity
@@ -18,6 +19,9 @@ import com.example.edu.ui.home.HomeViewModel
 import com.example.edu.ui.profile.ProfileViewModel
 import org.json.JSONObject
 import androidx.core.content.edit
+import com.example.edu.ui.subject.SubjectFinishedViewModel
+import com.example.edu.ui.subject.SubjectQuestionsViewModel
+import com.example.edu.ui.subject.SubjectResumeViewModel
 import com.example.edu.ui.subject.SubjectViewModel
 
 class MainActivity : AppCompatActivity() {
@@ -29,6 +33,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var configViewModel: ConfigViewModel
     private lateinit var profileViewModel: ProfileViewModel
     lateinit var subjectViewModel: SubjectViewModel
+    lateinit var subjectResumeViewModel: SubjectResumeViewModel
+    lateinit var subjectQuestionsViewModel: SubjectQuestionsViewModel
+    lateinit var subjectFinishedViewModel: SubjectFinishedViewModel
     private lateinit var json: JSONObject
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -49,6 +56,9 @@ class MainActivity : AppCompatActivity() {
         profileViewModel = ViewModelProvider(this)[ProfileViewModel::class.java]
         profileViewModel.setConfig(json)
         subjectViewModel = ViewModelProvider(this)[SubjectViewModel::class.java]
+        subjectResumeViewModel = ViewModelProvider(this)[SubjectResumeViewModel::class.java]
+        subjectQuestionsViewModel = ViewModelProvider(this)[SubjectQuestionsViewModel::class.java]
+        subjectFinishedViewModel = ViewModelProvider(this)[SubjectFinishedViewModel::class.java]
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -91,7 +101,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-     fun resetConfigJson() {
+    fun resetConfigJson() {
         val prefs = getSharedPreferences("config_prefs", MODE_PRIVATE)
 
         val jsonString = assets.open("data.json")
@@ -112,6 +122,60 @@ class MainActivity : AppCompatActivity() {
 
         saveConfigJson(jsons)
     }
+
+    fun marcarModuloComoAprovado(tituloModulo: String, minutosTotais: Long) {
+        val disciplinas = json.optJSONArray("conteudo_disciplinas") ?: return
+        val ultima_disciplina = json.optString("ultima_disciplina") ?: return
+        val achievements = json.optJSONObject("achievements") ?: return
+        for (i in 0 until disciplinas.length()) {
+            val disc = disciplinas.optJSONObject(i) ?: continue
+            val nome_disc = disc.optString("disciplina")
+            val modulos = disc.optJSONArray("modulos") ?: return
+            if (nome_disc == ultima_disciplina) {
+                for (i in 0 until modulos.length()) {
+                    val modulo = modulos.optJSONObject(i) ?: continue
+                    if (modulo.optString("titulo") == tituloModulo) {
+                        modulo.put("avaliado", true)
+                        break
+                    }
+                }
+                val keys = achievements.keys()
+
+                while (keys.hasNext()) {
+                    val key = keys.next()
+                    val posicao = key.toIntOrNull() ?: continue
+                    val obj = achievements.optJSONObject(key) ?: continue
+
+                    val quantidade = obj.optString("quantidade")
+                    val partes = quantidade.split("/")
+                    var numerador = partes[0].toInt()
+                    val denominador = partes[1].toInt()
+
+                    if (posicao == 1 && numerador <= denominador) {
+                        numerador = numerador + minutosTotais.toInt()
+                        if (numerador >= 10) {
+                            numerador = 10
+                        }
+                        obj.put("quantidade", "$numerador/$denominador")
+                    }
+
+                    if (posicao == 2 && numerador <= denominador) {
+                        numerador++
+                        obj.put("quantidade", "$numerador/$denominador")
+                    }
+
+                    if (nome_disc == "HISTÓRIA") {
+                        if (posicao == 3 && numerador <= denominador) {
+                            numerador++
+                            obj.put("quantidade", "$numerador/$denominador")
+                        }
+                    }
+                }
+            }
+        }
+        atualizarJson(json)
+    }
+
 
     private fun saveConfigJson(jsons: JSONObject) {
         val prefs = getSharedPreferences("config_prefs", MODE_PRIVATE)

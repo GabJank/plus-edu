@@ -1,5 +1,6 @@
 package com.example.edu.ui.subject
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -7,45 +8,53 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.edu.R
-import com.example.edu.ui.home.RankingItem
+import androidx.navigation.findNavController
+import com.example.edu.MainActivity
 
-class SubjectsAdapter : RecyclerView.Adapter<SubjectsAdapter.RankingViewHolder>() {
+class SubjectsAdapter(
+    private val onItemClick: (SubjectItem) -> Unit
+) : RecyclerView.Adapter<SubjectsAdapter.SubjectItemViewHolder>() {
 
-    private val itens = mutableListOf<RankingItem>()
+    private val itens = mutableListOf<SubjectItem>()
 
-    fun submitList(novaLista: List<RankingItem>) {
+    fun submitList(novaLista: List<SubjectItem>) {
         itens.clear()
         itens.addAll(novaLista)
         notifyDataSetChanged()
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RankingViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SubjectItemViewHolder {
         val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_ranking, parent, false)
-        return RankingViewHolder(view)
+            .inflate(R.layout.item_subject, parent, false)
+        return SubjectItemViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: RankingViewHolder, position: Int) {
-        holder.bind(itens[position])
+    override fun onBindViewHolder(holder: SubjectItemViewHolder, position: Int) {
+        val item = itens[position]
+        holder.bind(item)
+
+        val values_card =
+            holder.itemView.findViewById<androidx.cardview.widget.CardView>(R.id.card)
+
+        values_card.setOnClickListener {
+            onItemClick(item)  // <-- aqui manda o item pra quem criou o adapter
+        }
     }
 
     override fun getItemCount(): Int = itens.size
 
-    class RankingViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val textPosicao: TextView = itemView.findViewById(R.id.text_posicao)
-        private val textNome: TextView = itemView.findViewById(R.id.text_nome)
-        private val textPontos: TextView = itemView.findViewById(R.id.text_pontos)
+    class SubjectItemViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private val textPosicao: TextView = itemView.findViewById(R.id.subject_text)
         private val imageIcon: ImageView = itemView.findViewById(R.id.image_icon)
 
-        fun bind(item: RankingItem) {
-            textPosicao.text = item.posicao.toString()
-            textNome.text = item.nome
-            textPontos.text = "${item.pontos} pts"
+        fun bind(item: SubjectItem) {
+            textPosicao.text = item.titulo
 
-            if (item.iconRes != 0) {
-                imageIcon.setImageResource(item.iconRes)
+            if (item.avaliado) {
+                imageIcon.setImageResource(R.drawable.check)
             } else {
-                imageIcon.setImageResource(R.drawable.blue) // fallback
+                imageIcon.setImageResource(0)
             }
         }
+    }
 }

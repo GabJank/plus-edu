@@ -72,7 +72,7 @@
         tools:layout="@layout/fragment_subject_resume" >
 
         <action
-            android:id="@+id/action_navigation_subject_to_subject_questions"
+            android:id="@+id/action_navigation_subject_resume_to_subject_questions"
             app:destination="@id/navigation_subject_questions" />
 
     </fragment>
@@ -84,7 +84,7 @@
         tools:layout="@layout/fragment_subject_questions" >
 
         <action
-            android:id="@+id/action_navigation_subject_to_subject_finished"
+            android:id="@+id/action_navigation_subject_questions_to_subject_finished"
             app:destination="@id/navigation_subject_finished" />
 
     </fragment>

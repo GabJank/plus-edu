@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel
 import org.json.JSONObject
 
 class SubjectResumeViewModel : ViewModel() {
-    private val _config = MutableLiveData<JSONObject>()
-    val config: LiveData<JSONObject> = _config
+    private val _config = MutableLiveData<SubjectItem>()
+    val config: LiveData<SubjectItem> = _config
 
-    fun setConfig(json: JSONObject) {
+    fun setConfig(json: SubjectItem) {
         _config.value = json
     }
 }

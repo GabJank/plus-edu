@@ -107,6 +107,9 @@ class HomeFragment : Fragment() {
                             findNavController().navigate(
                                 R.id.action_navigation_home_to_subject
                             )
+                            json.put("ultima_disciplina",disciplinaName)
+                            (requireActivity() as MainActivity).atualizarJson(json)
+                            (requireActivity() as MainActivity).subjectViewModel.setConfig(disc)
                         }
                     }
 
